@@ -1,5 +1,5 @@
 # LAMMPS PIMD Analysis tool
-![CodeFactor Grade](https://img.shields.io/codefactor/grade/github/higj/pimd-analysis)
+![CodeFactor Grade](https://www.codefactor.io/repository/github/higj/pimd-analysis/badge)
 ![GitHub commit activity](https://img.shields.io/github/commit-activity/m/higj/pimd-analysis)
 
 ## What is it?
