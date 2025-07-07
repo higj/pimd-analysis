@@ -160,7 +160,7 @@ class LammpsAnalyzer:
         # Copy each of the requested columns into the dictionary.
         for col_name in col_names_lst:
             # TODO: Use pint-pandas instead of performing NumPy conversion
-            col_vals[col_name] = pd.to_numeric(f[col_name]).to_numpy()
+            col_vals[col_name] = pd.to_numeric(f[col_name]).to_numpy(dtype="float64")
 
         # If only one column name was provided, return the resulting column instead of a dictionary
         if len(col_names_lst) == 1:
